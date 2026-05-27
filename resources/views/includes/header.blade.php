@@ -3,7 +3,7 @@
         <div class="header-top header-padding-2 d-none d-sm-block">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xxl-4 col-xl-4 col-lg-5 d-flex align-items-center" style="margin-left: 13px;">
+                    <div class="col-xxl-4 col-xl-4 col-lg-5 d-flex align-items-center">
                         <div class="header__list header__list-4" style="display: contents;">
                             <ul>
                                 <li class="mr-35"><a href="info@theplasticsurgeons.in"><i class="fal fa-envelope"></i>
@@ -28,22 +28,20 @@
         <!-- /. header top -->
         <div class="header-bottom header-padding-2">
             <div class="container-fluid">
-                <div class="header-wrapper">
+                <div class="header-wrapper header-sticky">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-5">
-                            <div class="header-left d-flex align-items-center">
+                            <div class="header-left d-flex align-items-center site-header-left">
                                 <div class="logo f-left">
                                     <a href="{{ route('home')}}">
                                         <img src="{{ asset('/resources/assets/img/logo/logo.png')}}" alt="">
                                     </a>
                                 </div>
                                 <div class="header-menu-wrapper d-flex align-items-center">
-                                    <div class="header-nav header-nav-2 f-left  d-none d-lg-block">
+                                    <div class="header-nav header-nav-2 site-header-nav f-left d-none d-lg-block">
                                         <nav id="mobile-menu">
                                             <ul>
-                                                <li><a href="{{ route('home')}}">Home</a>
-                                                <li>
-                                                </li>
+                                                <li><a href="{{ route('home')}}">Home</a></li>
                                                 <li><a href="{{ route('about')}}">About</a></li>
                                                 <li><a href="{{ route('services')}}">Services</a></li>
                                                 <li><a href="#">Treatments</a>
@@ -71,6 +69,7 @@
                                                         <li><a href="{{ route('clinic-images')}}">Clinic Images</a></li>
                                                     </ul>
                                                 </li>
+                                                <li><a href="{{ route('blog')}}">Blogs</a></li>
                                                 <li><a href="{{ route('contact')}}">Contact</a></li>
                                             </ul>
                                         </nav>

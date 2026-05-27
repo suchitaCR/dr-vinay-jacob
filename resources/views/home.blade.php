@@ -6,7 +6,7 @@
 
 <main>
 
-    <video id="carouselExampleControls" width="100%" autoplay="" muted="" loop="" class="mt-160">
+    <video id="carouselExampleControls" width="100%" autoplay="" muted="" loop="">
         <source src="{{ asset('/resources/assets/img/service-video-2.mp4')}}" type="video/mp4">
     </video>
 

@@ -44,6 +44,35 @@ Route::get('/services-we-offer', function () {
     return view('services');
 })->name('services');
 
+Route::get('/blogs', function () {
+    $blogCards = [
+        [
+            'image' => 'why-choose-1.jpg',
+            'title' => 'Full Body Checkup: Why Preventive Health Screening Matters',
+            'excerpt' => 'Most serious health conditions do not appear suddenly. They develop quietly over months or even years before symptoms become noticeable.',
+            'url' => route('services'),
+        ],
+        [
+            'image' => 'service/rhinoplasty.jpg',
+            'title' => 'Rhinoplasty Recovery: What to Expect in the First Few Weeks',
+            'excerpt' => 'A smoother recovery starts with the right expectations around swelling, downtime, and aftercare in the days following surgery.',
+            'url' => route('rhinoplasty'),
+        ],
+        [
+            'image' => 'dr-vinay.jpg',
+            'title' => 'How to Choose the Right Plastic Surgeon for Your Procedure',
+            'excerpt' => 'Credentials, experience, communication, and a personalized treatment plan all matter when you are choosing a surgeon with confidence.',
+            'url' => route('about'),
+        ],
+    ];
+
+    return view('blog', compact('blogCards'));
+})->name('blog');
+
+Route::get('/blog/rhinoplasty-surgery-mumbai-procedure-recovery-results', function () {
+    return view('blog.rhinoplasty-surgery-mumbai-procedure-recovery-results');
+});
+
 Route::get('/treatments/face/rhinoplasty', function () {
     return view('rhinoplasty');
 })->name('rhinoplasty');

@@ -5,6 +5,7 @@
     @include('includes.head')
     <title> {{ $title }} </title>
     <meta name="description" content="@yield('meta_desc')">
+    @yield('page_css')
 </head>
 
 <body>

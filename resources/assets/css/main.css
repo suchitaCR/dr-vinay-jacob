@@ -72,6 +72,11 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #777777;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .container {
@@ -9170,4 +9175,117 @@ span.details-pro-price {
   margin-left: -25px;
   padding-right: 5px;
   color: #c5a971;
+}
+
+.site-header-left {
+  width: 100%;
+}
+
+.site-header-left .logo {
+  flex-shrink: 0;
+}
+
+.site-header-left .logo img {
+  width: 100%;
+  max-width: clamp(240px, 20vw, 340px);
+}
+
+.site-header-left .header-menu-wrapper {
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  margin-left: 28px;
+  min-width: 0;
+}
+
+.site-header-nav {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.site-header-nav #mobile-menu {
+  width: 100%;
+}
+
+.site-header-nav #mobile-menu > ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.site-header-nav #mobile-menu > ul > li > a {
+  font-size: 13.5px;
+  padding: 38px 0;
+  white-space: nowrap;
+}
+
+.site-header-nav #mobile-menu > ul > li:first-child > a {
+  padding-left: 0;
+}
+
+.site-header-nav #mobile-menu > ul > li:last-child > a {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 1600px) {
+  .site-header-nav #mobile-menu > ul > li > a {
+    font-size: 13px;
+    padding: 34px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .site-header-nav #mobile-menu > ul > li > a {
+    font-size: 12px;
+    padding: 30px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-top.header-padding-2,
+  .header-bottom.header-padding-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-bottom .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-bottom .header-wrapper {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    display: block;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+  }
+
+  .header-bottom .header-wrapper > .row {
+    --bs-gutter-x: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header-bottom .header-wrapper > .row > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-bottom .header-wrapper.sticky {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    display: block;
+    justify-content: initial;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+  }
 }
