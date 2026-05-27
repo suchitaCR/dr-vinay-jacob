@@ -1,0 +1,4 @@
+[26-May-2026 03:01:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/drvinayjacob/public_html/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/drvinayjacob/public_html/app/Providers/EventServiceProvider.php on line 10
