@@ -20,7 +20,7 @@
                         </div>
                         <div class="service__text-2 mt-50">
                             <div class="mb-50">
-                                <h4>Rhinoplastyyyyy Surgery in Mumbai: Procedure, Recovery & Results</h4>
+                                <h4>Rhinoplasty Surgery in Mumbai: Procedure, Recovery & Results</h4>
                                 <p>Your nose plays a major role in defining your facial balance and overall appearance. Even small changes in nose shape can create a noticeable improvement in facial harmony and confidence. <a href="{{ route('rhinoplasty') }}">Rhinoplasty</a>, commonly known as a <a href="{{ route('rhinoplasty') }}">nose reshaping surgery</a>, is one of the most popular cosmetic facial procedures performed today.</p>
                                 <p>Whether you wish to improve the appearance of your nose, correct breathing problems, repair an injury, or achieve better facial proportions, <a href="{{ route('rhinoplasty') }}">rhinoplasty surgery Mumbai</a> can offer long-lasting and <a href="{{ route('result-gallery') }}">natural-looking results</a> when performed by an <a href="{{ route('about') }}">experienced plastic surgeon</a>.</p>
                                 <p><a href="{{ route('about') }}">Dr. Vinay Jacob</a> is a senior plastic, aesthetic, and reconstructive surgeon in Mumbai with over 25 years of experience in advanced <a href="{{ route('services') }}">cosmetic and reconstructive procedures</a>, including <a href="{{ route('rhinoplasty') }}">rhinoplasty</a> and facial surgeries.</p>
