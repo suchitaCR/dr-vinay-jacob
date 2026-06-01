@@ -19,6 +19,27 @@
 
 
                 <article class="blog-card">
+                    <a href="{{ url('/blog/gynecomastia-surgery-cost-mumbai') }}" class="blog-card__media" aria-label="Gynecomastia Surgery Cost in Mumbai: Complete Guide">
+                        <img src="{{ asset('/resources/assets/img/blogs/gynecomastia-surgery-cost-in-mumbai-complete-guide.png') }}" alt="Gynecomastia Surgery Cost in Mumbai: Complete Guide">
+                    </a>
+
+                    <div class="blog-card__content">
+                        <h3>
+                            <a href="{{ url('/blog/gynecomastia-surgery-cost-mumbai') }}">Gynecomastia Surgery Cost in Mumbai: Complete Guide</a>
+                        </h3>
+                        <p>Learn about gynecomastia surgery cost in Mumbai, factors affecting pricing, recovery, procedure details, and treatment options with Dr. Vinay Jacob.</p>
+
+                        <a href="{{ url('/blog/gynecomastia-surgery-cost-mumbai') }}" class="blog-card__link">
+                            Read More
+                            <span class="blog-card__link-icon">
+                                <i class="fas fa-angle-double-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="blog-card">
                     <a href="{{ url('/blog/rhinoplasty-surgery-mumbai-procedure-recovery-results') }}" class="blog-card__media" aria-label="Rhinoplasty Surgery in Mumbai: Procedure, Recovery & Results">
                         <img src="{{ asset('/resources/assets/img/blogs/Rhinoplasty-Surgery-in-Mumbai-Procedure-Recovery-Results.png') }}" alt="Rhinoplasty Surgery in Mumbai: Procedure, Recovery & Results">
                     </a>
@@ -37,6 +58,8 @@
                         </a>
                     </div>
                 </article>
+
+
             </div>
         </div>
     </section>

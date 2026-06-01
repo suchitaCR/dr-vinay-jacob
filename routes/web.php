@@ -73,6 +73,10 @@ Route::get('/blog/rhinoplasty-surgery-mumbai-procedure-recovery-results', functi
     return view('blog.rhinoplasty-surgery-mumbai-procedure-recovery-results');
 });
 
+Route::get('/blog/gynecomastia-surgery-cost-mumbai', function () {
+    return view('blog.gynecomastia-surgery-cost-mumbai');
+});
+
 Route::get('/treatments/face/rhinoplasty', function () {
     return view('rhinoplasty');
 })->name('rhinoplasty');
