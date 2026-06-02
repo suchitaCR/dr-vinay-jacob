@@ -77,6 +77,10 @@ Route::get('/blog/gynecomastia-surgery-cost-mumbai', function () {
     return view('blog.gynecomastia-surgery-cost-mumbai');
 });
 
+Route::get('/blog/liposuction-vs-tummy-tuck-mumbai', function () {
+    return view('blog.liposuction-vs-tummy-tuck-mumbai');
+});
+
 Route::get('/treatments/face/rhinoplasty', function () {
     return view('rhinoplasty');
 })->name('rhinoplasty');
