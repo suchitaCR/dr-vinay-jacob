@@ -1,4 +1,4 @@
-@php($title = "About Dr. Vinay Jacob | Plastic & Reconstructive Surgeon in Mumbai")
+@php($title = "Dr. Vinay Jacob | Plastic & Reconstructive Surgeon in Mumbai")
 @section('meta_desc') @endsection
 
 @extends('layouts.default')
