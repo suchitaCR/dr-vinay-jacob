@@ -1,4 +1,4 @@
-@php($title = "Blogs | Plastic & Reconstructive Surgeon Dr. Vinay Jacob")
+@php($title = "Blog Plastic & Reconstructive Surgeon Dr. Vinay Jacob")
 @section('meta_desc') @endsection
 @section('page_css')
 <link rel="stylesheet" href="{{ asset('/resources/assets/css/blog.css') }}">
