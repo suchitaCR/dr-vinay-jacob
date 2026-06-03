@@ -18,25 +18,6 @@
             <div class="blog-cards__list">
 
 
-                <article class="blog-card">
-                    <a href="{{ url('/blog/liposuction-vs-tummy-tuck-mumbai') }}" class="blog-card__media" aria-label="Liposuction vs Tummy Tuck: Which Is Better for You?">
-                        <img src="{{ asset('/resources/assets/img/blogs/liposuction-vs-tummy-tuck-mumbai.png') }}" alt="Liposuction vs Tummy Tuck: Which Is Better for You?">
-                    </a>
-
-                    <div class="blog-card__content">
-                        <h3>
-                            <a href="{{ url('/blog/liposuction-vs-tummy-tuck-mumbai') }}">Liposuction vs Tummy Tuck: Which Is Better for You?</a>
-                        </h3>
-                        <p>Confused between liposuction and tummy tuck surgery? Learn the differences, benefits, recovery, costs, and who is the ideal candidate for each procedure.</p>
-
-                        <a href="{{ url('/blog/liposuction-vs-tummy-tuck-mumbai') }}" class="blog-card__link">
-                            Read More
-                            <span class="blog-card__link-icon">
-                                <i class="fas fa-angle-double-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                </article>
 
 
                 <article class="blog-card">
